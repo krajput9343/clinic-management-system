@@ -42,16 +42,16 @@ function Home() {
                             <form>
                                 <div className="row g-3">
                                     <div className="col-12 col-sm-6">
-                                        <select className="form-select bg-light border-0" style={{ height: "55px" }}>
-                                            <option >Choose Department</option>
+                                        <select className="form-select bg-light border-0" defaultValue="" style={{ height: "55px" }}>
+                                            <option value="" disabled hidden>Choose Department</option>
                                             <option value="1">Department 1</option>
                                             <option value="2">Department 2</option>
                                             <option value="3">Department 3</option>
                                         </select>
                                     </div>
                                     <div className="col-12 col-sm-6">
-                                        <select className="form-select bg-light border-0" style={{ height: " 55px" }}>
-                                            <option selected>Select Doctor</option>
+                                        <select className="form-select bg-light border-0" defaultValue="" style={{ height: "55px" }}>
+                                            <option value="" disabled hidden>Select Doctor</option>
                                             <option value="1">Doctor 1</option>
                                             <option value="2">Doctor 2</option>
                                             <option value="3">Doctor 3</option>
@@ -171,8 +171,8 @@ function Home() {
                 </div>
                 <div className="mx-auto" style={{ width: "100%", maxWidth: " 600px" }}>
                     <div className="input-group">
-                        <select className="form-select border-primary w-25" style={{ height: " 60px" }}>
-                            <option selected>Department</option>
+                        <select className="form-select border-primary w-25" defaultValue="" style={{ height: " 60px" }}>
+                            <option value="" disabled hidden>Department</option>
                             <option value="1">Department 1</option>
                             <option value="2">Department 2</option>
                             <option value="3">Department 3</option>
